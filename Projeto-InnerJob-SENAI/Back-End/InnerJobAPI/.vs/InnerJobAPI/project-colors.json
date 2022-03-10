@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "46c1669b-3969-4f54-b328-05e60c3964ae": {
+      "ProjectGuid": "46c1669b-3969-4f54-b328-05e60c3964ae",
+      "DisplayName": "InnerJobAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

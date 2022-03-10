@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pageHome{
+    width: 100%;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .header{
+      width: 100%;
+      height: 90px;
+      /* background: pink; */
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .conteudoHeader{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;    
+  }
+
+  .botaoLogin{
+    /* Estilo 1 - Botão Azul */
+    font-size: 17px;
+    width: 230px;
+    height: 56px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    background-color: #0A66C2;
+
+    /* Estilo 2 - Botão Branco */
+    /* font-size: 17px;
+    width: 230px;
+    height: 56px;
+    border: black 1px solid;
+    color: black;
+    border-radius: 4px;
+    background-color: white; */
+  }
+
+  .conteudoMain{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 663px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+  }
+
+  .conteudoTexto{
+    /* background-color: blueviolet; */
+    width: 560px;
+    height: 406px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .geralFrase{
+    /* background-color: blueviolet; */
+    line-height: 50px;
+  }
+
+  .fraseImpacto1{
+    /* background-color: blue; */
+    font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+  }
+
+  .color1{
+    /* background-color: blue; */
+    font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #0A66C2;
+  }
+
+  .fraseImpacto2{
+    /* background-color: blue; */
+    font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+  }
+
+  .color2{
+    /* background-color: blue; */
+    font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #0A66C2;
+  }
+  
+  .frasePensativa{
+    /* background-color: brown; */
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 25px;
+  }
+
+  
+  .botaoComeçar{
+    font-size: 17px;
+    width: 193px;
+    height: 56px;
+    background-color: #0A66C2;
+    border: none;
+    border-radius: 4px;
+    color: white;
+  }
+
+  .imgMain{
+    /* background-color: blueviolet; */
+  }
+  
+

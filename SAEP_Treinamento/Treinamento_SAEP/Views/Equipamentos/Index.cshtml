@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Treinamento_SAEP.Models.Equipamentos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Equipamentos</h1>
+
+<p>
+    <a asp-action="Create">Cadastrar Equipamento</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Equipamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Imagem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descicao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ativo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Equipamento)
+            </td>
+            <td>
+                <img src="~/img/Imagens_Equipamentos/@Html.DisplayFor(modelItem => item.Imagem)" /> 
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descicao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ativo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">
+                    <img src="~/img/Imagens_Icones/comentario.png" alt="Detalhes" />
+                </a>
+                <a asp-action="Delete" asp-route-id="@item.Id">
+                    <img src="~/img/Imagens_Icones/deletar.png" alt="Excluir" />
+                </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

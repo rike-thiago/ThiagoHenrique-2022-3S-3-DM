@@ -1,0 +1,13 @@
+Dicas
+
+Não focar no que não conseguiu concluir, apresentar o que está concluído;
+Falar sempre "nós" como um grupo e não "eu";
+Navegar pelas telas (seja no figma ou no front);
+Evitar mostrar o código, focar nas funcionalidades;
+Não pontuar exatamente os problemas enfrentados somente comentar se tiveram problemas;
+Concentrar a apresentação e todos os itens para apresentar em apenas um computador;
+Cuidado com cores e degrades em excesso;
+Falar sobre possíveis melhorias;
+
+IA de Serviços Personalizados
+(tem na azure)

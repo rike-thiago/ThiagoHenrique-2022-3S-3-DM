@@ -1,0 +1,8 @@
+Aula:
+
+SSMS
+Endpoint = servidordbgrupo-rededev.database.windows.net
+Usuário = usuariodb
+Senha = Senai@132
+
+
